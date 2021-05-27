@@ -1,0 +1,22 @@
+D:\Project\Mady\obj\Debug\Mady.Properties.Resources.resources
+D:\Project\Mady\obj\Debug\Mady.csproj.GenerateResource.cache
+D:\Project\Mady\obj\Debug\Mady.csproj.CoreCompileInputs.cache
+D:\Project\Mady\obj\Debug\Mady.Form1.resources
+D:\Project\Mady\bin\Debug\EntityFramework.dll
+D:\Project\Mady\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\Mady\bin\Debug\System.Data.SQLite.dll
+D:\Project\Mady\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Project\Mady\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Project\Mady\bin\Debug\EntityFramework.xml
+D:\Project\Mady\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\Mady\bin\Debug\System.Data.SQLite.xml
+D:\Project\Mady\obj\Debug\Mady.Form2.resources
+D:\Project\Mady\obj\Debug\Mady.csproj.CopyComplete
+D:\Project\Mady\obj\Debug\Mady.Consult.resources
+D:\Project\Mady\obj\Debug\Mady.ConsultAll.resources
+D:\Project\Mady\bin\Debug\Tiny Strawberry Shop.exe.config
+D:\Project\Mady\bin\Debug\Tiny Strawberry Shop.exe
+D:\Project\Mady\bin\Debug\Tiny Strawberry Shop.pdb
+D:\Project\Mady\obj\Debug\Tiny Strawberry Shop.exe
+D:\Project\Mady\obj\Debug\Tiny Strawberry Shop.pdb
+D:\Project\Mady\obj\Debug\Mady.Search.resources
