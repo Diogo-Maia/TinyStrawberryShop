@@ -20,3 +20,4 @@ D:\Project\Mady\bin\Debug\Tiny Strawberry Shop.pdb
 D:\Project\Mady\obj\Debug\Tiny Strawberry Shop.exe
 D:\Project\Mady\obj\Debug\Tiny Strawberry Shop.pdb
 D:\Project\Mady\obj\Debug\Mady.Search.resources
+D:\Project\Mady\obj\Debug\Mady.csprojAssemblyReference.cache

@@ -1,19 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Windows.Forms;
 
 namespace Mady
 {
     public partial class Form2 : Form
     {
-        private DB_Manager db = new DB_Manager();
+        private DB_Manager db;
 
         public Form2()
         {
+            db = new DB_Manager();
             InitializeComponent();
         }
 
@@ -27,6 +23,7 @@ namespace Mady
             textBoxInsta.Text = "";
             textBoxItems.Text = "";
             textBoxNotes.Text = "";
+            textBoxPrice.Text = "";
         }
     }
 }

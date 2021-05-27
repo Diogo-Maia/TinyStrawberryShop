@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Data;
 using System.Data.SQLite;
 
@@ -10,10 +6,6 @@ namespace Mady
 {
     class DB_Manager
     {
-        /*private readonly string connectionString = $"URI=file:" +
-        $"{Environment.GetFolderPath(Environment.SpecialFolder.Desktop)}" +
-        $"/StrawberryShop.db;";*/
-
         private readonly string conn = $"URI=file:" +
         $"{AppDomain.CurrentDomain.BaseDirectory}" +
         $"/StrawberryShop.db;";
@@ -29,7 +21,7 @@ namespace Mady
 
             using (var order = new SQLiteCommand(sqlConnect))
             {
-                order.CommandText = "INSERT INTO Orders(Name, Adress, Items, InstaHandle, Notes, Done, Price, Delievered) VALUES (@n, @a, @i, @in, @no, @d, @p, @d)";
+                order.CommandText = "INSERT INTO Orders(Name, Adress, Items, Insta, Notes, Done, Price, Delievered) VALUES (@n, @a, @i, @in, @no, @d, @p, @d)";
                 order.Parameters.AddWithValue("@n", name);
                 order.Parameters.AddWithValue("@a", adress);
                 order.Parameters.AddWithValue("@i", items);
@@ -52,7 +44,7 @@ namespace Mady
 
             using (var order = new SQLiteCommand(sqlConnect))
             {
-                order.CommandText = "UPDATE Orders SET Name=@n, Adress=@a, Items=@i, InstaHandle=@in, Notes=@no, Done=@d, Delievered=@de WHERE OrderID=@key";
+                order.CommandText = "UPDATE Orders SET Name=@n, Adress=@a, Items=@i, Insta=@in, Notes=@no, Done=@d, Delievered=@de WHERE OrderID=@key";
                 order.Parameters.AddWithValue("@n", name);
                 order.Parameters.AddWithValue("@a", adress);
                 order.Parameters.AddWithValue("@i", items);
@@ -133,7 +125,6 @@ namespace Mady
                 using (var cmd = sqlConnect.CreateCommand())
                 {
                     cmd.CommandText = $"SELECT * FROM Orders WHERE Insta=\"{insta}\"";
-                    //cmd.Parameters.AddWithValue("@in", "\'" + insta + "'");
                     da = new SQLiteDataAdapter(cmd.CommandText, sqlConnect);
                     da.Fill(dt);
 
